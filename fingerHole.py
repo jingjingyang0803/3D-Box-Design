@@ -75,7 +75,7 @@ filter_height = 2.0
 
 filter_origin = FreeCAD.Vector(
     -filter_width / 2,
-    -middle_length / 2,
+    - filter_depth + middle_length / 2,
     bottom_height + 1  # centered in 4mm band
 )
 
