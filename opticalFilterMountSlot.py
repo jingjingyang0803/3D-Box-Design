@@ -30,13 +30,12 @@ mount = Part.makeBox(
 
 # -------------------------------------------------------
 # 2. Base Plate (50 x 60.5 x 2 mm)
-#     - Shifted so the base is offset at X = 7.5, Y = -13.75 from mount center
+#     - Shifted so the base is offset at Y = -13.75 from mount center
 # -------------------------------------------------------
 base_width = 50.0
 base_length = 60.5
 base_height = 2.0
 
-plate_offset_x = 7.5
 plate_offset_y = -13.75
 
 plate_origin = FreeCAD.Vector(
